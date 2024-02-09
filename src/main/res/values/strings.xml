@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Job Portal</string>
+    <string name="email">Email</string>
+    <string name="log_in_as_recruiter">Log In as RECRUITER</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="text_log_in">Log In</string>
+    <string name="text_or">OR</string>
+    <string name="text_register">Register</string>
+    <string name="text_log_in_as_recruiter">Log In as Recruiter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

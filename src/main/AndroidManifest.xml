@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dd_job_search_illustration_77823"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dd_job_search_illustration_77823"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JobPortal"
+        tools:targetApi="31">
+        <activity
+            android:name=".StudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LogoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- SplashScreenActivity is set as the launcher activity -->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecruiterRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecruiterLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InsertJobPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AllJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" /> <!-- MainActivity is not set as the launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+            <!-- Remove the <intent-filter> section -->
+        </activity>
+    </application>
+
+</manifest>

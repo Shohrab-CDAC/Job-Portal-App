@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edit_design"
+    android:gravity="center"
+    tools:context=".RecruiterLoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_log_in_as_recruiter"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:id="@+id/text_login_as_recruiter" />
+
+            <EditText
+                android:id="@+id/email_login_recruiter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColorHint="@color/black"
+                android:background="@color/white"
+                android:hint="@string/hint_email"
+                android:textColor="@color/black"
+                android:minHeight="48dp"
+                android:importantForAutofill="no"
+                tools:ignore="TextFields,VisualLintTextFieldSize" />
+
+            <EditText
+                android:id="@+id/login_password_recruiter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/hint_password"
+                android:textColorHint="@color/black"
+                android:minHeight="48dp"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:inputType="textPassword"
+                android:importantForAutofill="no"
+                tools:ignore="VisualLintTextFieldSize" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/text_log_in"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/btn_login_recruiter"
+                tools:ignore="VisualLintButtonSize" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/text_or"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:id="@+id/text_or_recruiter" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/text_register"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/btn_reg_recruiter"
+                tools:ignore="VisualLintButtonSize" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

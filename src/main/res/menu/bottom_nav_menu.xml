@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/alljobhome"
+        android:title="All Jobs"
+        android:icon="@drawable/ic_baseline_home_alljob_24"
+        app:actionLayout="@layout/menu_item_layout"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/notification"
+        android:title="Alert"
+        android:icon="@drawable/ic_baseline_notifications_none_24"
+        app:actionLayout="@layout/menu_item_layout"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/savedjobs"
+        android:title="Saved"
+        android:icon="@drawable/ic_baseline_savedjobs24"
+        app:actionLayout="@layout/menu_item_layout"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/appliedjob"
+        android:title="Applied"
+        android:icon="@drawable/ic_baseline_appliedjob_24"
+        app:actionLayout="@layout/menu_item_layout"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_profile_24"
+        app:actionLayout="@layout/menu_item_layout"
+        app:showAsAction="ifRoom"/>
+</menu>
